@@ -40,6 +40,7 @@ the solution if there is one
 Example Output:
 -----
 Maze #1: Solution Found
+
 \* * * * *
 
 \* a . . *
