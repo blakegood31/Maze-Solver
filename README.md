@@ -2,6 +2,7 @@
 return the solution if there is one. 
 
 - Input follows the form:
+
 Number_of_mazes
 
 Rows Columns 
