@@ -2,9 +2,9 @@ import java.util.*;
 
 public class Maze {
 	/**
-	 * This is a class for each maze we try to solve.
-	 * The class holds information about the maze and the related functions,
-	 * including the function to solve the maze 
+	 * This is a class used to represent each maze we try to solve as an object.
+	 * The class holds information about the maze and related functions,
+	 * including the function to solve the maze
 	 */
 	private int row; 
 	private int col;
@@ -119,7 +119,11 @@ public class Maze {
 	}
 	
 	public boolean findPath(Maze m, Point s, Point e, Point c, ArrayList<Point> path, int index) {
-		//Find a path to solve the maze
+		//Finds path to solve the maze 
+		//Input: The maze to be solved, starting point 's', end point 'e', current point 'c', 
+		//ArrayList representing the current path, and current index
+		//
+		//Output: boolean representing whether or not the maze was solved 
 		
 		String alphabet = "abcdefghijklmnopqrstuvwxyz";
 		boolean done = false;
