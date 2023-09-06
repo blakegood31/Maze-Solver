@@ -8,7 +8,8 @@ public class Point {
 	
 	public Point(int x, int y) {
 		/**
-		 * This is a class for all of the different points in the maze 
+		 * This is a class used to represent points in the maze. Each point contains 
+   		 * information about its x and y coordinates, and the moves taken that have led to the current point
 		 */
 		xPos = x;
 		yPos = y;
