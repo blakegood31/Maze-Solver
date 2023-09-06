@@ -8,8 +8,8 @@ public class MazeSolver {
 		 * whether or not a solution exists, along with 
 		 * the solution if it does exist
 		 * 
-		 * Inputs: number of mazes, number of rows/columns in 
-		 * each maze, starting coordinates, ending coordinates, 
+		 * Inputs (from console): number of mazes, number of rows/columns in 
+		 * each maze, starting coordinates, ending coordinates, and 
 		 * the mazes themselves (.'s are valid moves, *'s are 
 		 * restricted moves)
 		 * 
